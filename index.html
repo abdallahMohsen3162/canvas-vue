@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,500;1,300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Bondi</title>
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class=" bg-dark p-3 d-flex justify-content-between sticky-top">
+        <div class="brand">
+            <a href="#">
+                <span>TEMPLATE</span>
+                <span class="brand-light">FIRE</span>
+            </a>
+        </div>
+
+        <div class="link-container bg-dark">
+            <span class="close">
+                <i class="fa-solid fa-x"></i>
+            </span>
+            <a href="#">Home</a>
+            <a href="#books-scroll">Help</a>
+            <a href="#">serv</a>
+            <a href="#footer">Contact</a>
+
+        </div>
+        <div class="toggler">
+            <span id="show">
+                <span></span>
+            <span></span>
+
+            </span>
+        </div>
+    </nav>
+
+
+
+    <section class="landing" data-landTitle="Hello">
+        <div>
+
+            <a href="#">
+                <h1 class="display-6">Support</h1>
+            </a>
+
+            <a href="#">
+                <h1 class="display-6">Home</h1>
+            </a>
+
+            <a href="#">
+                <h1 class="display-6">Blog</h1>
+            </a>
+
+        </div>
+
+        <canvas>
+        
+    </canvas>
+    </section>
+
+    <section class="sec2">
+
+        <h1 class="display-1 main-title">Section2</h1>
+
+        <div class="sec2-cont">
+
+            <div class="box">
+                <div class="img-parent">
+                    <div class="infos" data-title="Title">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    <img src="imgs/img1.webp" alt="">
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="img-parent">
+                    <div class="infos" data-title="Title">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    <img src="imgs/img2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img-parent">
+                    <div class="infos" data-title="Title">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    <img src="imgs/img3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="slider-sec pb-5">
+        <div>
+            <h6 class="main-title text-black pt-5 display-6 fw-bolder">
+                What Our Clients Say
+            </h6>
+        </div>
+
+        <div id="slider">
+
+            <div v-if="cur==1">
+                <div class="visual">
+                    <div>
+                        <img src="imgs/client-3.png" alt="" class="client">
+                    </div>
+
+                    <img src="imgs/pattern_8.png" alt="" class="pattern">
+
+                </div>
+
+                <div class="text">
+                    <p>
+                        <a href="#" class="text-black"><i class="fa-solid fa-link"></i></a> Text Content
+                    </p>
+                    <h3> E1xcellent support services. You guys are the best.
+                    </h3>
+
+                    <p>
+                        1Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem sed. Architecto incidunt minima illum repudiandae blanditiis, laboriosam aliquid eos ut. Tenetur, nesciunt saepe beatae et accusantium pariatur numquam voluptatem.
+                    </p>
+
+                    <div class="avatar">
+                        <img src="imgs/avatar-2.png" alt="">
+                        <div>
+                            <h4>name</h4>
+                            <p class="text-black-50">name</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div v-if="cur==2">
+                <div class="visual">
+                    <div>
+                        <img src="imgs/client-2.png" alt="" class="client">
+                    </div>
+                    <img src="imgs/pattern_8_3.png" alt="" class="pattern">
+
+                </div>
+
+                <div class="text">
+                    <p>
+                        <a href="#" class="text-black"><i class="fa-solid fa-link"></i></a> Text Content
+                    </p>
+                    <h3> Ex2cellent support services. You guys are the best.
+                    </h3>
+
+                    <p>
+                        2Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem sed. Architecto incidunt minima illum repudiandae blanditiis, laboriosam aliquid eos ut. Tenetur, nesciunt saepe beatae et accusantium pariatur numquam voluptatem.
+                    </p>
+
+                    <div class="avatar">
+                        <img src="imgs/avatar-1.png" alt="">
+                        <div>
+                            <h4>name</h4>
+                            <p class="text-black-50">name</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div v-if="cur==3">
+                <div class="visual">
+                    <div>
+                        <img src="imgs/client-4.png" alt="" class="client">
+                    </div>
+                    <img src="imgs/pattern_8_2.png" alt="" class="pattern">
+
+                </div>
+
+                <div class="text">
+                    <p>
+                        <a href="#" class="text-black"><i class="fa-solid fa-link"></i></a> Text Content
+                    </p>
+                    <h3> Excellent support services. You guys are the best.3
+                    </h3>
+
+                    <p>
+                        3Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, rem sed. Architecto incidunt minima illum repudiandae blanditiis, laboriosam aliquid eos ut. Tenetur, nesciunt saepe beatae et accusantium pariatur numquam voluptatem.
+                    </p>
+
+                    <div class="avatar">
+                        <img src="imgs/avatar-3.png" alt="">
+                        <div>
+                            <h4>name</h4>
+                            <p class="text-black-50">name</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="bullets">
+
+                <button @click="cur=1" :class="{'active': cur==1}"></button>
+                <button @click="cur=2" :class="{'active': cur==2}"></button>
+                <button @click="cur=3" :class="{'active': cur==3}"></button>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div class="features mt-5" id="features">
+
+        <img src="imgs/js.png" alt="">
+        <img src="imgs/boo.png" alt="">
+        <img src="imgs/vue.png" alt="">
+        <img src="imgs/css.png" alt="">
+        <img src="imgs/html.png" alt="">
+
+    </div>
+
+
+    <section class="main-text mt-5">
+
+        <div class="text-box">
+            <p> consectetur santium nostrum non tempora.</p>
+            <span></span>
+        </div>
+
+        <div class="text-box">
+            <p>Lorem ditiis ipsa.</p>
+            <span></span>
+        </div>
+
+        <div class="text-box">
+            <p>Lorem .</p>
+            <span></span>
+        </div>
+
+    </section>
+
+
+
+    <section class="container-fluid row justify-content-center Offers mt-5 pb-5">
+
+        <div class="parchase-bullets">
+
+        </div>
+
+        <!--Offer start-->
+        <div class="offer col-lg-3 col-md-5 col-sm-12">
+
+            <div class="top">
+                <h1>Free</h1>
+                <h1 class="fs-1 "><sup><i class="fa-solid fa-dollar-sign"></i></sup> 0</h1>
+            </div>
+
+            <div class="bottom p-5">
+
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sint dolor vitae provident neque ea tempora, quos amet repellendus distinctio ipsum, quisquam necessitatibus animi laboriosam facilis aliquid quod debitis. Corrupti!</p>
+
+                <h4>Lorem ipsum dolor sit amet </h4>
+
+                <br><br><br>
+                <p class="text-black-50">Try Now</p>
+
+                <a href="#">Parchase</a>
+            </div>
+
+        </div>
+        !--Offer end-->
+
+        <!--Offer start-->
+        <div class="offer col-lg-3 col-md-5 col-sm-12">
+
+            <div class="top">
+                <h1>Bussiness</h1>
+                <h1 class="fs-1 "><sup><i class="fa-solid fa-dollar-sign"></i></sup> 99</h1>
+            </div>
+
+            <div class="bottom p-5">
+
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sint dolor vitae provident neque ea tempora, quos amet repellendus distinctio ipsum, quisquam necessitatibus animi laboriosam facilis aliquid quod debitis. Corrupti!</p>
+
+                <h4>Lorem ipsum dolor sit amet </h4>
+
+                <br><br><br>
+                <p class="text-black-50">Try Now</p>
+
+                <a href="#">Parchase</a>
+            </div>
+
+        </div>
+        !--Offer end-->
+
+        <!--Offer start-->
+        <div class="offer col-lg-3 col-md-5 col-sm-12">
+
+            <div class="top">
+                <h1>Community</h1>
+                <h1 class="fs-1 "><sup><i class="fa-solid fa-dollar-sign"></i></sup> 199</h1>
+            </div>
+
+            <div class="bottom p-5">
+
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, sint dolor vitae provident neque ea tempora, quos amet repellendus distinctio ipsum, quisquam necessitatibus animi laboriosam facilis aliquid quod debitis. Corrupti!</p>
+
+                <h4>Lorem ipsum dolor sit amet </h4>
+
+                <br><br><br>
+                <p class="text-black-50">Try Now</p>
+
+                <a href="#">Parchase</a>
+            </div>
+
+        </div>
+        !--Offer end-->
+    </section>
+
+
+
+
+    <!--start register-->
+
+    <section class="sign container-fluid p-5 mt-5">
+
+        <div class="row">
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+
+                <div class="sign-in">
+
+                    <h1>sign in</h1>
+
+                    <p class="text-white-50 ">Lorem ipsum, dolor sit amet consectetur adipisicing elits.</p>
+
+                    <a href="#" class="reg-sign-link">
+                        sign in
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-8 col-md-8 col-sm-12">
+
+                <div class="register">
+
+                    <h1>Create An Account</h1>
+
+                    <br>
+                    <div class="links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+
+                    <br> <br>
+                    <p class="text-black-50 ">Lorem ipsum, dolor sit amet consectetur adipisicing elits.</p>
+
+
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+
+                        <button href="#" class="reg-sign-link">
+                            sign in
+                        </button>
+                    </form>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <section>
+
+        <!--<img src="imgs/2.png" class="img-thumbnail" alt="Cinque Terre">-->
+        <div class="container-fluid bg-dark">
+            <h1 class="display-1 text-white text-center">Boxes</h1>
+            <br>
+
+            <div class="row p-2 pt-5">
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="#">
+                        <div class="box-final" data-cat="catigory">
+
+                            <img src="imgs/car.png" class="img-thumbnail" alt="Cinque Terre">
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="#">
+                        <div class="box-final" data-cat="catigory">
+
+                            <img src="imgs/car.png" class="img-thumbnail" alt="Cinque Terre">
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="#">
+                        <div class="box-final" data-cat="catigory">
+
+                            <img src="imgs/car.png" class="img-thumbnail" alt="Cinque Terre">
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <a href="#">
+                        <div class="box-final" data-cat="catigory">
+
+                            <img src="imgs/car.png" class="img-thumbnail" alt="Cinque Terre">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="js/vue.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/all.min.js "></script>
+
+    <script src="js/extra.js"></script>
+    <script src="js/ctrl.js"></script>
+</body>
+
+</html>
